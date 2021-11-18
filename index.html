@@ -31,7 +31,7 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#concept">Concept</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#demo">Demo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Demo</a></li>
                 </ul>
                 <form class="me-auto search-form" target="_self" style="background: #ffffff;"><span></span></form><a class="btn btn-primary action-button" role="button" href="#invest" style="box-shadow: 0px 0px 13px 11px rgb(242,242,242);background: var(--bs-blue);">Invest</a>
             </div>
@@ -78,11 +78,17 @@
                 <h2 class="text-center" id="demo">Demo</h2>
                 <p class="text-center">Have a look at our live network demo.</p>
             </div>
-            <div class="buttons"></div>
-        </div>
-    </section><script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+            <div class="buttons"><script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-<model-viewer src="assets/3d/output.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/3d/output.glb"></model-viewer>
+<style>
+model-viewer {
+  width: 800px;
+  height: 600px;
+}
+</style>
+<model-viewer src="assets/3d/output.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/3d/output.glb"></model-viewer></div>
+        </div>
+    </section>
     <section data-aos="fade-up" data-aos-offset="10" data-aos-delay="150" data-aos-once="true" class="highlight-clean" style="background: rgba(255,255,255,0);">
         <div class="container">
             <div class="intro">
